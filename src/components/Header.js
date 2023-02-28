@@ -1,0 +1,1 @@
+import Menu from "./Menu";function Header(){    return(        <div>            <h1> Booking</h1>            <Menu/>        </div>    )}export default Header

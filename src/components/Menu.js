@@ -1,0 +1,1 @@
+import React from 'react';import Offers from "./Offers";import Footer from "./Footer";const Menu = () => {    const headerMenu=["Cabins", "Villas", "Hotels", "Apartments"]    return (        <div>            {headerMenu.map((el, i)=>            <li key={i}>{el}</li>)}            <Offers/>            <Footer/>        </div>    );};export default Menu;
